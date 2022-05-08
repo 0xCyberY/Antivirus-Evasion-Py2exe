@@ -6,7 +6,7 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/0xCyberY?style=social)
 
 # Antivirus-Evasion-Py2exe
-Simple python script to evade antiviruses on fully patched and updated Windows environments using a python then converted exe payload.
+Simple python script to evade antiviruses on fully patched and updated Windows environments using a py2exe.
 
 # Note: This script works only on Windows OS
 
