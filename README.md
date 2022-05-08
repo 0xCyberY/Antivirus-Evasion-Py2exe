@@ -5,6 +5,8 @@ Keep in mind that attempting antivirus bypass is a game. Whenever a new evasion 
 
 By the time of this writing, the payload was flagged as malicious by only one vendor on Virus Total.
 
+# Note: This Script work only in Windows OS
+
 # Prerequisite:
 1. [Install Python 2.7.16 x86 for Windows](https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi)
 2. [Install Py2exe 32 bits for Python 2.7](https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/py2exe-0.6.9.win32-py2.7.exe/download)
