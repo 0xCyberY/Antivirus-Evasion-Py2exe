@@ -69,3 +69,5 @@ By the time of this writing, the payload was flagged as malicious by only one ve
 
 ![virus_total](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/virus%20total.png)
 
+
+**Credit** [Marcelo Sacchetin](https://infosecwriteups.com/antivirus-evasion-with-python-49185295caf1)
