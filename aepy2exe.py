@@ -1,7 +1,6 @@
 
 # -*- coding: utf-8 -*-
 
-
 #This simple python script to evade antiviruses on fully patched and updated Windows environments using a python then converted exe payload.
 #Created by @0xCyberY
 
