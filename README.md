@@ -1,3 +1,10 @@
+![GitHub language count](https://img.shields.io/github/languages/count/0xCyberY/ehtk)
+![GitHub repo size](https://img.shields.io/github/repo-size/0xCyberY/ehtk)
+![Lines of code](https://img.shields.io/tokei/lines/github/0xCyberY/ehtk)
+![GitHub](https://img.shields.io/github/license/0xCyberY/ehtk)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/0xCyberY/ehtk)
+![Twitter Follow](https://img.shields.io/twitter/follow/0xCyberY?style=social)
+
 # Antivirus-Evasion-Py2exe
 Simple python script to evade antiviruses on fully patched and updated Windows environments using a python then converted exe payload.
 
