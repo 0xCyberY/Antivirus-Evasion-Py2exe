@@ -8,8 +8,6 @@
 # Antivirus-Evasion-Py2exe
 Simple python script to evade antiviruses on fully patched and updated Windows environments using a python then converted exe payload.
 
-By the time of this writing, the payload was flagged as malicious by only one vendor on Virus Total.
-
 # Note: This script works only on Windows OS
 
 # Prerequisite:
@@ -46,3 +44,5 @@ Example:
 
 # Conclusion
 Keep in mind that attempting antivirus bypass is a game. Whenever a new evasion technique gets popular, antivirus vendors will eventually learn about itand update their signatures database to block it. Then, new evasion techniques will a rise, which will make vendors to add it to their signature database, and so on.
+
+By the time of this writing, the payload was flagged as malicious by only one vendor on Virus Total.
