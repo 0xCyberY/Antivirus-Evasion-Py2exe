@@ -46,7 +46,7 @@ Example:
 ``
 The script will generate CyberY.py, build, and dist, Our execution file will be under dist.
 ``
-![Output]()
+![Output](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/output.png)
 
 In case there is an error such as The system cannot open the device or file specified.
 Try hard!
@@ -55,5 +55,5 @@ Keep in mind that attempting antivirus bypass is a game. Whenever a new evasion 
 
 By the time of this writing, the payload was flagged as malicious by only one vendor on Virus Total.
 
-![virus_total]()
+![virus_total](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/virus%20total.png)
 
