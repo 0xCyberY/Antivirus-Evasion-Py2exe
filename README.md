@@ -1,8 +1,8 @@
-![GitHub language count](https://img.shields.io/github/languages/count/0xCyberY/ehtk)
-![GitHub repo size](https://img.shields.io/github/repo-size/0xCyberY/ehtk)
-![Lines of code](https://img.shields.io/tokei/lines/github/0xCyberY/ehtk)
-![GitHub](https://img.shields.io/github/license/0xCyberY/ehtk)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/0xCyberY/ehtk)
+![GitHub language count](https://img.shields.io/github/languages/count/0xCyberY/Antivirus-Evasion-Py2exe)
+![GitHub repo size](https://img.shields.io/github/repo-size/0xCyberY/Antivirus-Evasion-Py2exe)
+![Lines of code](https://img.shields.io/tokei/lines/github/0xCyberY/Antivirus-Evasion-Py2exe)
+![GitHub](https://img.shields.io/github/license/0xCyberY/Antivirus-Evasion-Py2exe)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/0xCyberY/Antivirus-Evasion-Py2exe)
 ![Twitter Follow](https://img.shields.io/twitter/follow/0xCyberY?style=social)
 
 # Antivirus-Evasion-Py2exe
