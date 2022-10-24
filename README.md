@@ -50,7 +50,7 @@ In case there is an error such as The system cannot open the device or file spec
 **Try hard!!**
 #### Run the CyberY.exe
 ```
-C:\>.\dist\CyberY.exe
+C:\>.\CyberY.exe
 ```
 #### On attacker machine (Kali)
 ```
