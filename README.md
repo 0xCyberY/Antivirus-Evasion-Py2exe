@@ -44,7 +44,7 @@ Example:
 ``
 The script will generate CyberY.py, build, and dist, Our execution file will be under dist.
 ``
-![Output](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/output.png)
+![Output](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/Output.png)
 
 In case there is an error such as The system cannot open the device or file specified.
 **Try hard!!**
