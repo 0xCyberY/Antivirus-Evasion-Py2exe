@@ -42,7 +42,7 @@ Example:
         C:\>python aepy2exe.py -e py2exe -ip <ip_address> -p <port>
 ```
 ``
-The script will generate CyberY.py, build, and dist, Our execution file will be under dist.
+The script will generate CyberY.exe.
 ``
 ![Output](https://github.com/0xCyberY/Antivirus-Evasion-Py2exe/blob/main/Output.png)
 
