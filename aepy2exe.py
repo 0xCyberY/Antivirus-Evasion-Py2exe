@@ -86,7 +86,7 @@ if __name__ == '__main__':
                 # create a command line interface.
                 parser = argparse.ArgumentParser(description='Antivirus Evasion Py2exe',
                 formatter_class=argparse.RawDescriptionHelpFormatter,
-                epilog=textwrap.dedent('''Example:\n\tC:\\>python aepy2exe.py -ip <ip_address> -p <port>\n\tC:\\>python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443'''))
+                epilog=textwrap.dedent('''Example:\n\tC:\\>python aepy2exe.py -ip <ip_address> -p <port>'''))
                 parser.add_argument('-ip', '--attacker_ip', default='192.168.1.10', help='specified attacker IP')        
                 parser.add_argument('-p', '--port', type=int, default=443, help='specified attcaker port')
                 args = parser.parse_args()
